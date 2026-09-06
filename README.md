@@ -1,11 +1,9 @@
 # Bot de Resposta Automática no WhatsApp
 
-Bot simples desenvolvido em Node.js com a biblioteca `@whiskeysockets/baileys` para Termux/Android.
+Bot simples desenvolvido em Node.js utilizando a biblioteca `@whiskeysockets/baileys`, otimizado para execução via Termux em dispositivos Android.
 
-## 🚀 Como Executar
-1. `npm install`
-2. `node index.js`
+## 📋 Pré-requisitos (Termux)
 
-## ☕ Apoie o Projeto
-Se este script te ajudou, considere fazer uma doação de qualquer valor:
-* **Chave Pix:** `9999109-1786`
+No seu aplicativo Termux, prepare o ambiente executando:
+```bash
+pkg update && pkg install nodejs git
